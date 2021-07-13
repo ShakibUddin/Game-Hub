@@ -1,0 +1,21 @@
+@keyframes slide-right {
+  0% {
+    opacity: 0.01;
+    transform: translateX(-30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes wave {
+  0% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0.001;
+    transform: scale(7, 7);
+  }
+}
