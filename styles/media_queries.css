@@ -27,7 +27,6 @@
     min-width: 300px;
     margin: 0;
   }
-
   .cards-div {
     width: auto;
     grid-template-columns: repeat(1, 1fr);
