@@ -1,0 +1,40 @@
+@media only screen and (max-width: 425px) {
+  .home {
+    flex-direction: column;
+  }
+  .half-width {
+    width: 100vw;
+  }
+  .main-title {
+    font-size: 2.5rem;
+    color: white;
+    margin: 20% 0 5% 2%;
+  }
+  .primary-button {
+    margin: 0 0 10% 2%;
+    padding: 10px;
+    border: none;
+  }
+  .image-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 20% 0;
+  }
+  .image-div > img {
+    height: 70%;
+    width: 70%;
+    min-width: 300px;
+    margin: 0;
+  }
+  .cards-div {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .videos {
+    width: 90%;
+  }
+  .reviews {
+    width: 90%;
+  }
+}

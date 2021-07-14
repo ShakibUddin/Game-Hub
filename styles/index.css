@@ -69,7 +69,7 @@ home section style
 }
 
 /*-----------------------------------
-games styles
+cards-div styles
 -----------------------------------*/
 main {
   width: 100vw;
@@ -77,11 +77,10 @@ main {
   justify-content: center;
   padding-top: 70px;
 }
-.games {
+.cards-div {
   width: 60%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
   grid-gap: 20px;
 }
 article {
@@ -112,7 +111,67 @@ article {
   font-weight: lighter;
   color: rgba(0, 0, 0, 0.664);
 }
-/* footer style */
+
+/*----------------------------
+ video section style 
+ ----------------------------*/
+.video-section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  flex-direction: column;
+  align-items: center;
+}
+.section-title {
+  margin-top: 50px;
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/*----------------------------
+ review section style 
+ ----------------------------*/
+.review-section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+  flex-direction: column;
+  align-items: center;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.user-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.user-name {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 16px;
+}
+
+/*----------------------------
+ footer style 
+ ----------------------------*/
 footer {
   display: flex;
   align-items: center;
@@ -136,43 +195,7 @@ footer {
 .fab {
   font-size: 1.5rem;
 }
+
 /*-----------------------------------
 mobile media query 
 -----------------------------------*/
-@media only screen and (max-width: 425px) {
-  .home {
-    flex-direction: column;
-  }
-  .half-width {
-    width: 100vw;
-  }
-  .main-title {
-    font-size: 2.5rem;
-    color: white;
-    margin: 20% 0 5% 2%;
-  }
-  .primary-button {
-    margin: 0 0 10% 2%;
-    padding: 10px;
-    border: none;
-  }
-  .image-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 20% 0;
-  }
-  .image-div > img {
-    height: 70%;
-    width: 70%;
-    min-width: 300px;
-    margin: 0;
-  }
-  .games {
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    grid-gap: 20px;
-  }
-}
