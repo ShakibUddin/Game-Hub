@@ -22,15 +22,16 @@ home section style
 .main-title {
   font-size: 3.5rem;
   color: white;
-  margin: 20% 0 5% 20%;
+  margin: 25% 13% 5% 20%;
 }
 .primary-button {
   background-color: var(--primary-color);
   color: white;
-  min-width: 100px;
-  width: 20%;
+  width: 168px;
+  height: 44px;
   margin: 0 0 20% 20%;
   padding: 10px;
+  font-size: 1rem;
   border: none;
   cursor: pointer;
 }
@@ -44,7 +45,7 @@ home section style
   height: 70%;
   width: 60%;
   min-width: 300px;
-  margin: 20% 0 20% 0%;
+  margin: 20% 18% 10% 13%;
   transition: transform 0.5s ease-out;
   z-index: 2;
 }
@@ -75,25 +76,26 @@ main {
   width: 100vw;
   display: flex;
   justify-content: center;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 .cards-div {
-  width: 60%;
+  width: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 article {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 330px;
+  height: 474px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .game-image {
-  width: 100%;
-  height: 80%;
-  padding: 5px;
+  height: 256px;
+  width: 300px;
+  margin-top: 16px;
   object-fit: cover;
 }
 .game-name {
@@ -101,13 +103,16 @@ article {
   font-size: 28px;
   font-weight: 700;
   margin: 0;
+  padding: 16px 16px 10px 16px;
   text-align: start;
   align-self: flex-start;
-  margin-top: 16px;
 }
 .game-description {
   text-align: start;
   font-size: 1rem;
+  margin: 0;
+  line-height: 26px;
+  padding: 0px 16px 33px 16px;
   font-weight: lighter;
   color: rgba(0, 0, 0, 0.664);
 }
@@ -135,7 +140,7 @@ article {
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 
 /*----------------------------
@@ -154,7 +159,7 @@ article {
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
 .user-image {
   width: 100px;
