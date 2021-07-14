@@ -104,7 +104,6 @@ article {
   font-weight: 700;
   margin: 0;
   padding: 16px 16px 10px 16px;
-  text-align: start;
   align-self: flex-start;
 }
 .game-description {
@@ -199,6 +198,9 @@ footer {
 }
 .fab {
   font-size: 1.5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 100px;
+  padding: 10px;
 }
 
 /*-----------------------------------
